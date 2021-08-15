@@ -1,10 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+
+const person = {
+  firstName: "John",
+  lastName: "Miller",
+  age: 27
+}
 
 function App() {
   return (
     <div>
-    <h1>Hello World</h1>
+      <p>{person.firstName}</p>
+      <p>{person.lastName}</p>
+      <p>{person.age}</p>
     </div>
     );
 }
